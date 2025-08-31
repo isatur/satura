@@ -1,0 +1,41 @@
+{
+
+  "access": {
+
+    "User": "admin",
+    "Pass": "admin"
+
+  },  
+
+  "smtp": {
+
+    "Orange.fr": "smtp.orange.fr:465:SSL:username:password",
+    "Gmail.com": "smtp.gmail.com:587:TLS:username:password",
+    "Socks5.com": "smtp.socks5.com:25:NOSSL"
+
+  },
+
+  "offers": {
+
+    "Default": {
+      "Name": "[[AZ-{10}]]",
+      "Subject": "[[AZ-{10}]]",
+      "Link": "https://www.google.com"
+    },
+
+    "Offer 1": {
+      "Name": "Offer Name 1",
+      "Subject": "Offer Subject 1",
+      "Link": "https://www.offerLink1.com"
+    },
+
+    "Offer 2": {
+      "Name": "Offer Name 2",
+      "Subject": "Offer Subject 2",
+      "Link": "https://www.offerLink2.com"
+    }
+    
+  }
+
+}
+
